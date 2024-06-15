@@ -1,0 +1,515 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    background: url("bg\ 1.jpg") no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.6;
+}
+
+/* Header */
+
+.Navigation-bar {
+    display: flex;
+    align-items: center;
+}
+
+/* Navigation bar: logo and images */
+
+.logo {
+    margin: -22px 0px;
+}
+
+.logo img {
+    width: 130px;
+}
+
+.logo img:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.logo-text {
+    position: relative;
+    top: -32px;
+    left: 8px;
+}
+
+.logo-text a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.logo-text a:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+/* Navigation bar: list-styling */
+
+.list-styling ul {
+    display: flex;
+    list-style: none;
+}
+
+.list-styling ul li a {
+    padding: 5px 35px;
+    text-decoration: none;
+    color: black;
+    font-size: 1.3rem;
+    border-radius: 20px;
+    transition: background-color 0.3s, color 0.3s;
+    /* Smooth transition */
+}
+
+.list-styling ul li a:hover {
+    text-decoration: underline;
+    color: red;
+    background-color: rgb(0, 0, 0);
+}
+
+/* Navigation bar: call action button */
+
+.callaction {
+    display: flex;
+    align-items: baseline;
+    position: relative;
+    left: 16%;
+}
+
+.callaction img {
+    padding: 4px 10px;
+    width: 30px;
+    transition: background-color 0.3s, color 0.3s;
+    /* Smooth transition */
+}
+
+.callaction img:hover {
+    background-color: rgb(255, 255, 255);
+    filter: invert();
+}
+
+.icon-size img {
+    width: 25px;
+}
+
+#searchIcon img {
+    width: 25px;
+}
+
+.twittericon img {
+    width: 25px;
+}
+
+/* Search */
+
+/* Styling for the small search tab */
+.small-search-tab {
+    position: fixed;
+    top: 75px;
+    /* Adjust as needed */
+    right: 20px;
+    /* Adjust as needed */
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.small-search-tab input[type="text"] {
+    width: 185px;
+    font-size: 1.0rem;
+    padding: 7px 10px;
+    margin-right: 5px;
+}
+
+.small-search-tab button {
+    padding: 6px 15px;
+    background-color: #ff0808;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s;
+    /* Smooth transition */
+}
+
+.small-search-tab button:hover {
+    background-color: transparent;
+    border: 2px solid #ff0808;
+    color: #ff0808;
+    /* Change text color on hover */
+}
+
+/* Home section */
+.home {
+    position: absolute;
+    top: 20%;
+    left: 2%;
+}
+
+.home h1 {
+    font-size: 8rem;
+    color: rgb(0, 0, 0);
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.home h3 {
+    background-color: red;
+    margin: 30px 543px;
+    padding: 5px 5px;
+    color: white;
+    position: relative;
+    right: 41%;
+    font-family: 'Josefin Sans', sans-serif;
+    transition: background-color 0.3s;
+    /* Smooth transition */
+}
+
+.home h3 div {
+    display: flex;
+    position: relative;
+    right: 42%;
+    margin: 10px 0px;
+}
+
+.home button {
+    background-color: red;
+    margin: 5px 0px;
+    padding: 15px 45px;
+    border: 2px solid red;
+    transition: background-color 0.3s, color 0.3s;
+    /* Smooth transition */
+}
+
+.home button:hover {
+    background-color: transparent;
+    border: 2px solid red;
+    color: red;
+}
+
+.home button a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.4rem;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+}
+
+.home button a:hover {
+    color: red;
+}
+
+/* section: cards for fast food */
+
+.cards-for-fast-food {
+    position: absolute;
+    top: 120%;
+    left: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cards-for-fast-food h3 {
+    background-color: red;
+    padding: 5px;
+    margin: 12px;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.cards-for-fast-food h1 {
+    font-size: 4rem;
+    color: rgb(0, 0, 0);
+    margin: 10px 0px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.cards-for-fast-food p {
+    font-size: 1.2rem;
+    color: rgb(0, 0, 0);
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.cards-section {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    position: absolute;
+    top: 170%;
+    background-color: #f2f2f2;
+}
+
+.cards-section img {
+    width: 235px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    margin: 15px 6px;
+}
+
+.cards div {
+    font-size: 1.3rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    line-height: 250%;
+}
+
+.cards div:hover {
+    color: red;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* zooming effect on cards */
+
+.cards div {
+    width: 235px;
+    transition: transform 0.3s;
+    /* Smooth transition */
+}
+
+.cards div:hover {
+    transform: scale(1.05);
+    /* Zoom in by 10% */
+}
+
+
+
+/* delivery */
+
+.Food-Delivery {
+    position: absolute;
+    top: 770%;
+    left: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* padding: 20px; */
+
+
+}
+
+.Food-Delivery h3 {
+    background-color: red;
+    padding: 5px;
+    margin: 12px;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.Food-Delivery h1 {
+    font-size: 4rem;
+    color: rgb(0, 0, 0);
+    margin: 10px 0px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.Food-Delivery p {
+    font-size: 1.2rem;
+    color: rgb(0, 0, 0);
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.cards-section-2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    position: absolute;
+    top: 820%;
+    background-color: #f2f2f2;
+    width: 100%;
+}
+
+.cards-section-2 img {
+    width: 235px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.cards h1 {
+    line-height: 40px;
+    font-size: 1.6rem;
+}
+
+.cards p {
+    line-height: 23px;
+    font-size: 1rem;
+}
+
+.cards h1:hover {
+    cursor: auto;
+}
+
+.cards p:hover {
+    cursor: auto;
+}
+
+
+
+
+
+
+
+
+/* Theme-Features */
+
+.Theme-Features {
+    position: absolute;
+    top: 920%;
+    left: 8%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+.Theme-Features h3 {
+    background-color: red;
+    padding: 5px;
+    margin: 12px;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.Theme-Features h1 {
+    font-size: 4rem;
+    color: rgb(0, 0, 0);
+    margin: 10px 0px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.Theme-Features p {
+    font-size: 1.2rem;
+    color: rgb(0, 0, 0);
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.cards-section-3 {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    position: absolute;
+    top: 970%;
+    background-color: #f2f2f2;
+}
+
+.cards-section-3 img {
+    width: 80px;
+    position: relative;
+    left: 35%;
+}
+
+
+
+.cards- {
+    display: flex;
+    flex-direction: column;
+    margin: 15px 8px;
+}
+
+.cards- h1 {
+    width: 235px;
+    line-height: 60px;
+    font-size: 1.2rem;
+    display: flex;
+    transition: transform 0.3s;
+    justify-content: center;
+}
+
+.cards- p {
+    width: 235px;
+    font-size: 1.1rem;
+    transition: transform 0.3s;
+}
+
+.cards- div:hover {
+    color: red;
+}
+
+
+/* zooming effect on cards */
+
+.cards- div {
+    width: 235px;
+    transition: transform 0.3s;
+    /* Smooth transition */
+}
+
+.cards- div:hover {
+    transform: scale(1.05);
+    /* Zoom in by 10% */
+}
+
+
+/* call us section */
+
+.call-us-section {
+    position: absolute;
+    top: 6145px;
+    background-color: #2e2e2e;
+    width: 50%;
+    padding: 25px;
+}
+
+.call-us-section img {
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    position: relative;
+    filter: invert();
+}
+
+.call-us-section p {
+    padding: 0px;
+    position: relative;
+    left: 130px;
+    top: -70px;
+    color: white;
+    font-weight: bold;
+}
+
+.call-us-section h3 {
+    background-color: red;
+    padding: 5px;
+    width: 90px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.call-us-section h1 {
+    padding: 20px;
+    color: white;
+    font-size: 1.8rem;
+}
+
+
+
+/* footer */
+.footerwebsite {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    position: relative;
+    top: 6470px;
+    font-weight: bold;
+}
