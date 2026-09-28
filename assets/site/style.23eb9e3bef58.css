@@ -678,16 +678,6 @@ nav a:hover {
     font-size: 11px;
   }
 }
-.sr-only {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip-path: inset(50%);
-  white-space: nowrap;
-}
 .header-actions {
   display: flex;
   align-items: center;
@@ -709,21 +699,11 @@ nav a:hover {
   color: var(--wine);
 }
 .cart-toggle {
-  position: relative;
-  width: 44px;
-  padding: 8px;
+  gap: 7px;
+  padding: 8px 10px;
 }
 #cart-count {
-  position: absolute;
-  top: -7px;
-  right: -7px;
-  min-width: 20px;
-  padding: 1px 4px;
-  border: 2px solid white;
-  border-radius: 20px;
-  background: var(--wine);
-  color: white;
-  font-size: 10px;
+  font-size: 12px;
   font-weight: 700;
 }
 .add-to-cart {

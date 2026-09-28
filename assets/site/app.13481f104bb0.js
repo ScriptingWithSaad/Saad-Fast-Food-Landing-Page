@@ -108,11 +108,6 @@
   const opener = document.querySelector("#cart-toggle");
   const list = document.querySelector("#cart-items");
   const status = document.querySelector("#cart-status");
-  const feedback = document.createElement("p");
-  feedback.className = "sr-only";
-  feedback.setAttribute("role", "status");
-  feedback.setAttribute("aria-atomic", "true");
-  dialog.append(feedback);
   const products = new Map();
   const addButtons = new Map();
   let cart = new Map();
@@ -159,7 +154,6 @@
   function announce(message) {
     clearTimeout(statusTimer);
     status.textContent = message;
-    feedback.textContent = dialog.open ? message : "";
     status.classList.add("visible");
     statusTimer = setTimeout(() => status.classList.remove("visible"), 3500);
   }
@@ -217,7 +211,7 @@
         "decrease",
       );
       const number = document.createElement("span");
-      number.textContent = String(quantity);
+      number.textContent = quantity;
       number.setAttribute("aria-label", `Quantity ${quantity}`);
       const plus = control(
         `Increase ${product.name} quantity`,
@@ -236,8 +230,7 @@
       row.append(image, details);
       list.append(row);
     });
-    document.querySelector("#cart-count").textContent =
-      total > 99 ? "99+" : String(total);
+    document.querySelector("#cart-count").textContent = total;
     opener.setAttribute(
       "aria-label",
       `Open cart, ${total} ${total === 1 ? "item" : "items"}`,
