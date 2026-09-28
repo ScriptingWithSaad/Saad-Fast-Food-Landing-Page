@@ -1,0 +1,278 @@
+[
+  {
+    "id": 1,
+    "image": "assets/images/burger.png",
+    "name": "Burger",
+    "category": "Burgers"
+  },
+  {
+    "id": 6,
+    "image": "assets/images/Pizza.png",
+    "name": "Pizza",
+    "category": "Pizza"
+  },
+  {
+    "id": 13,
+    "image": "assets/images/Taco  1.png",
+    "name": "Taco",
+    "category": "Meals & sides"
+  },
+  {
+    "id": 59,
+    "image": "assets/images/paratha roll.png",
+    "name": "Paratha roll",
+    "category": "Meals & sides"
+  },
+  {
+    "id": 11,
+    "image": "assets/images/roast chicken.png",
+    "name": "Roast chicken",
+    "category": "Meals & sides"
+  },
+  {
+    "id": 21,
+    "image": "assets/images/onion rings.png",
+    "name": "Onion rings",
+    "category": "Meals & sides"
+  },
+  {
+    "id": 22,
+    "image": "assets/images/nuggets.png",
+    "name": "Nuggets",
+    "category": "Meals & sides"
+  },
+  {
+    "id": 26,
+    "image": "assets/images/Burrito.png",
+    "name": "Burrito",
+    "category": "Meals & sides"
+  },
+  {
+    "id": 29,
+    "image": "assets/images/Muffin.png",
+    "name": "Muffin",
+    "category": "Sweet treats"
+  },
+  {
+    "id": 32,
+    "image": "assets/images/Pancake.png",
+    "name": "Pancake",
+    "category": "Sweet treats"
+  },
+  {
+    "id": 35,
+    "image": "assets/images/donuts.png",
+    "name": "Donuts",
+    "category": "Sweet treats"
+  },
+  {
+    "id": 42,
+    "image": "assets/images/stawberry Milkshake.png",
+    "name": "Strawberry milkshake",
+    "category": "Drinks"
+  },
+  {
+    "id": 2,
+    "image": "assets/images/Cheeseburger 1.png",
+    "name": "Cheeseburger",
+    "category": "Burgers"
+  },
+  {
+    "id": 3,
+    "image": "assets/images/Cheeseburger.png",
+    "name": "Cheeseburger",
+    "category": "Burgers"
+  },
+  {
+    "id": 4,
+    "image": "assets/images/hambrger 2.png",
+    "name": "Hamburger",
+    "category": "Burgers"
+  },
+  {
+    "id": 5,
+    "image": "assets/images/hamburger 2.png",
+    "name": "Hamburger",
+    "category": "Burgers"
+  },
+  {
+    "id": 7,
+    "image": "assets/images/Pizza 1.png",
+    "name": "Pizza",
+    "category": "Pizza"
+  },
+  {
+    "id": 8,
+    "image": "assets/images/cheeze pizza.png",
+    "name": "Cheese pizza",
+    "category": "Pizza"
+  },
+  {
+    "id": 9,
+    "image": "assets/images/Hot dog 1.png",
+    "name": "Hot dog",
+    "category": "Meals & sides"
+  },
+  {
+    "id": 10,
+    "image": "assets/images/Hot dog.png",
+    "name": "Hot dog",
+    "category": "Meals & sides"
+  },
+  {
+    "id": 12,
+    "image": "assets/images/roast chicken1.png",
+    "name": "Roast chicken",
+    "category": "Meals & sides"
+  },
+  {
+    "id": 14,
+    "image": "assets/images/Taco 2.png",
+    "name": "Taco",
+    "category": "Meals & sides"
+  },
+  {
+    "id": 15,
+    "image": "assets/images/Taco 3.png",
+    "name": "Taco",
+    "category": "Meals & sides"
+  },
+  {
+    "id": 16,
+    "image": "assets/images/Taco.png",
+    "name": "Taco",
+    "category": "Meals & sides"
+  },
+  {
+    "id": 17,
+    "image": "assets/images/sandwich 1.png",
+    "name": "Sandwich",
+    "category": "Meals & sides"
+  },
+  {
+    "id": 18,
+    "image": "assets/images/sandwich 2.png",
+    "name": "Sandwich",
+    "category": "Meals & sides"
+  },
+  {
+    "id": 19,
+    "image": "assets/images/Sandwich.png",
+    "name": "Sandwich",
+    "category": "Meals & sides"
+  },
+  {
+    "id": 20,
+    "image": "assets/images/tikke.png",
+    "name": "Chicken tikka",
+    "category": "Meals & sides"
+  },
+  {
+    "id": 23,
+    "image": "assets/images/Noodle 1.png",
+    "name": "Noodles",
+    "category": "Meals & sides"
+  },
+  {
+    "id": 24,
+    "image": "assets/images/Noodle.png",
+    "name": "Noodles",
+    "category": "Meals & sides"
+  },
+  {
+    "id": 25,
+    "image": "assets/images/kabab.png",
+    "name": "Kebab",
+    "category": "Meals & sides"
+  },
+  {
+    "id": 27,
+    "image": "assets/images/Burrito 1.png",
+    "name": "Burrito",
+    "category": "Meals & sides"
+  },
+  {
+    "id": 28,
+    "image": "assets/images/barbeque.png",
+    "name": "Barbecue",
+    "category": "Meals & sides"
+  },
+  {
+    "id": 30,
+    "image": "assets/images/Muffin cakes.png",
+    "name": "Muffin cake",
+    "category": "Sweet treats"
+  },
+  {
+    "id": 31,
+    "image": "assets/images/Muffin cake.png",
+    "name": "Muffin cake",
+    "category": "Sweet treats"
+  },
+  {
+    "id": 33,
+    "image": "assets/images/Pancake 1.png",
+    "name": "Pancake",
+    "category": "Sweet treats"
+  },
+  {
+    "id": 34,
+    "image": "assets/images/Pancake 2.png",
+    "name": "Pancake",
+    "category": "Sweet treats"
+  },
+  {
+    "id": 36,
+    "image": "assets/images/donuts 3.png",
+    "name": "Donuts",
+    "category": "Sweet treats"
+  },
+  {
+    "id": 37,
+    "image": "assets/images/donuts 2.png",
+    "name": "Donuts",
+    "category": "Sweet treats"
+  },
+  {
+    "id": 38,
+    "image": "assets/images/Divine Donuts.png",
+    "name": "Divine donuts",
+    "category": "Sweet treats"
+  },
+  {
+    "id": 39,
+    "image": "assets/images/all milkshakes.png",
+    "name": "Milkshakes",
+    "category": "Drinks"
+  },
+  {
+    "id": 40,
+    "image": "assets/images/all 1 milkshakes.png",
+    "name": "Milkshakes",
+    "category": "Drinks"
+  },
+  {
+    "id": 41,
+    "image": "assets/images/choclate Milkshake.png",
+    "name": "Chocolate milkshake",
+    "category": "Drinks"
+  },
+  {
+    "id": 43,
+    "image": "assets/images/strawberry 2 Milkshake.png",
+    "name": "Strawberry milkshake",
+    "category": "Drinks"
+  },
+  {
+    "id": 44,
+    "image": "assets/images/choclate 2 Milkshake.png",
+    "name": "Chocolate milkshake",
+    "category": "Drinks"
+  },
+  {
+    "id": 45,
+    "image": "assets/images/cocala.png",
+    "name": "Cola",
+    "category": "Drinks"
+  }
+]
